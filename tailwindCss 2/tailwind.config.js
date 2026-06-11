@@ -6,7 +6,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'title': ['Lato', 'sans-serif'],
+        'body': ['Poppins', 'sans-serif'],
+      },
+
+    },
   },
   plugins: [],
 }
