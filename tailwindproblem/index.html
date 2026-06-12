@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindproblem</title>
+    <!-- tailwind live -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <main class="container mx-auto">
+        <div class="grid grid-cols-2 gap-4">
+
+    <div>
+        <img class="w-full" src="https://picsum.photos/400/300?random=1">
+    </div>
+
+    <div class="translate-y-8">
+        <img class="w-full" src="https://picsum.photos/400/300?random=2">
+    </div>
+
+    <div class="abosolute">
+        <img class="w-full" src="https://picsum.photos/400/300?random=3">
+    </div>
+
+    <div class="abosolute top-50">
+        <img class="w-full" src="https://picsum.photos/400/300?random=4">
+    </div>
+
+
+
+
+</div>
+    <div class="w-50 h-50 bg-black text-white">1</div>
+    <div class="w-50 h-50 bg-black text-white">2</div>
+    <div class="w-50 h-50 bg-black text-white">3</div>
+    <div class="w-50 h-50 bg-black text-white hover:shadow-xl hover:shadow-blue-300 transition-shadow duration-400 ease-in scale-30 -rotate-30 -translate-y-200 z-1">4</div>
+    <div class="w-50 h-50 bg-black text-white relative left-90 hover:shadow-xl hover:shadow-pink-300 transition duration-200 ease-out ease-linear">5</div>
+    <div class="w-50 h-50 bg-black text-white">6</div>
+    </main>
+</body>
+</html>
